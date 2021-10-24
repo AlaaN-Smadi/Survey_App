@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background="#000076"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center"
+    android:minWidth="25px"
+    android:minHeight="25px">
+
+	 
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:gravity="right"
+		android:layout_marginTop="70dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" >
+		<TextView
+			android:text="mawadasd"
+			android:layout_marginLeft="25dp"
+			android:layout_marginRight="25dp"
+			android:textColor="#fff"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/mawad" />
+	</LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+		
+		android:layout_marginTop="18.5dp"
+              
+        android:background="#9d9dff"
+        android:id="@+id/listView1" />
+	
+	 
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+	 android:background="#000076"
+		android:gravity="center"
+		
+		android:layout_marginBottom="50dp"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:id="@+id/alaa221"
+		
+		>
+
+		<TextView
+			android:text="mawadawd"
+			
+			android:textColor="#ffd700"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/rokn" />
+		</LinearLayout>
+	
+
+</LinearLayout>
